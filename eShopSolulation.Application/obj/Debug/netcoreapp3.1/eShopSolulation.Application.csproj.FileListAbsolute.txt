@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\bin\Debug\netcoreapp3.1\eShopSolulation.Application.deps.json
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\bin\Debug\netcoreapp3.1\eShopSolulation.Application.dll
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\bin\Debug\netcoreapp3.1\eShopSolulation.Application.pdb
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\bin\Debug\netcoreapp3.1\eShopSolulation.Utilities.dll
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\bin\Debug\netcoreapp3.1\eShopSolution.Data.dll
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\bin\Debug\netcoreapp3.1\eShopSolulation.Utilities.pdb
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\bin\Debug\netcoreapp3.1\eShopSolution.Data.pdb
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\obj\Debug\netcoreapp3.1\eShopSolulation.Application.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\obj\Debug\netcoreapp3.1\eShopSolulation.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\obj\Debug\netcoreapp3.1\eShopSolulation.Application.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\obj\Debug\netcoreapp3.1\eShopSolulation.Application.AssemblyInfo.cs
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\obj\Debug\netcoreapp3.1\eShopSolulation.Application.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\obj\Debug\netcoreapp3.1\eShopSolulation.Application.csproj.CopyComplete
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\obj\Debug\netcoreapp3.1\eShopSolulation.Application.dll
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\obj\Debug\netcoreapp3.1\eShopSolulation.Application.pdb

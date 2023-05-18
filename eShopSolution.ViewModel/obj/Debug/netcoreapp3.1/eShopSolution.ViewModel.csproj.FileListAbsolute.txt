@@ -1,0 +1,10 @@
+C:\Users\Admin\source\repos\MVCSolution\eShopSolution.ViewModel\bin\Debug\netcoreapp3.1\eShopSolution.ViewModel.deps.json
+C:\Users\Admin\source\repos\MVCSolution\eShopSolution.ViewModel\bin\Debug\netcoreapp3.1\eShopSolution.ViewModel.dll
+C:\Users\Admin\source\repos\MVCSolution\eShopSolution.ViewModel\bin\Debug\netcoreapp3.1\eShopSolution.ViewModel.pdb
+C:\Users\Admin\source\repos\MVCSolution\eShopSolution.ViewModel\obj\Debug\netcoreapp3.1\eShopSolution.ViewModel.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\MVCSolution\eShopSolution.ViewModel\obj\Debug\netcoreapp3.1\eShopSolution.ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\MVCSolution\eShopSolution.ViewModel\obj\Debug\netcoreapp3.1\eShopSolution.ViewModel.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\MVCSolution\eShopSolution.ViewModel\obj\Debug\netcoreapp3.1\eShopSolution.ViewModel.AssemblyInfo.cs
+C:\Users\Admin\source\repos\MVCSolution\eShopSolution.ViewModel\obj\Debug\netcoreapp3.1\eShopSolution.ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\MVCSolution\eShopSolution.ViewModel\obj\Debug\netcoreapp3.1\eShopSolution.ViewModel.dll
+C:\Users\Admin\source\repos\MVCSolution\eShopSolution.ViewModel\obj\Debug\netcoreapp3.1\eShopSolution.ViewModel.pdb

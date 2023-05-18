@@ -1,0 +1,17 @@
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\bin\Debug\netcoreapp3.1\eShopSolution.Application.deps.json
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\bin\Debug\netcoreapp3.1\eShopSolution.Application.dll
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\bin\Debug\netcoreapp3.1\eShopSolution.Application.pdb
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\bin\Debug\netcoreapp3.1\eShopSolution.Data.dll
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\bin\Debug\netcoreapp3.1\eShopSolution.Utilities.dll
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\bin\Debug\netcoreapp3.1\eShopSolution.ViewModel.dll
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\bin\Debug\netcoreapp3.1\eShopSolution.Utilities.pdb
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\bin\Debug\netcoreapp3.1\eShopSolution.Data.pdb
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\bin\Debug\netcoreapp3.1\eShopSolution.ViewModel.pdb
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.AssemblyInfo.cs
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.csproj.CopyComplete
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.dll
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.pdb

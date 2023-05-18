@@ -1,0 +1,91 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "eShopSolution.ViewModel/1.0.0": {
+        "dependencies": {
+          "FluentValidation": "11.5.1",
+          "Microsoft.AspNetCore.Http.Features": "3.1.1"
+        },
+        "runtime": {
+          "eShopSolution.ViewModel.dll": {}
+        }
+      },
+      "FluentValidation/11.5.1": {
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.5.1.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/3.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.1",
+          "System.IO.Pipelines": "4.7.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Http.Features.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.100.119.61510"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/3.1.1": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.100.119.61404"
+          }
+        }
+      },
+      "System.IO.Pipelines/4.7.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/System.IO.Pipelines.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "eShopSolution.ViewModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FluentValidation/11.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0h1Q5lNOLLyYTWMJmyNoMqhY4CBRvvUWvJP1R4F2CnmmzuWwvB0A8aVmw5+lOuwYnwUwCRrdeMLbc81F38ahNQ==",
+      "path": "fluentvalidation/11.5.1",
+      "hashPath": "fluentvalidation.11.5.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Features/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Qkjtwq5tUwsVTCfhi/dsKxtcJ7ZognOcQWoZYIobUCN6keCr3ec6jRwpupUzk6PFNCFz9acltgBqU/lxOoSxvA==",
+      "path": "microsoft.aspnetcore.http.features/3.1.1",
+      "hashPath": "microsoft.aspnetcore.http.features.3.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tC5Eo5DbJA+NgiIw26R5c97N02tFvtfqstUxqb/4qXPLXI2IAIWSMUkh/1c9Gw59TT9hNkLwlmLErSPlHgyJVQ==",
+      "path": "microsoft.extensions.primitives/3.1.1",
+      "hashPath": "microsoft.extensions.primitives.3.1.1.nupkg.sha512"
+    },
+    "System.IO.Pipelines/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S0L7oyWyQdVzD+5xIvcC8h44Vc+FY+qXDCLRh2+YsuBDORNphcxNX+tXR6ByLMjQ/7jDaXxsYBF6qbAr7ZIaFw==",
+      "path": "system.io.pipelines/4.7.0",
+      "hashPath": "system.io.pipelines.4.7.0.nupkg.sha512"
+    }
+  }
+}

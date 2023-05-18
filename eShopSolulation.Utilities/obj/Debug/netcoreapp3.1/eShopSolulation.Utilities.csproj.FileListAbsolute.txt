@@ -1,0 +1,10 @@
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Utilities\bin\Debug\netcoreapp3.1\eShopSolulation.Utilities.deps.json
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Utilities\bin\Debug\netcoreapp3.1\eShopSolulation.Utilities.dll
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Utilities\bin\Debug\netcoreapp3.1\eShopSolulation.Utilities.pdb
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Utilities\obj\Debug\netcoreapp3.1\eShopSolulation.Utilities.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Utilities\obj\Debug\netcoreapp3.1\eShopSolulation.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Utilities\obj\Debug\netcoreapp3.1\eShopSolulation.Utilities.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Utilities\obj\Debug\netcoreapp3.1\eShopSolulation.Utilities.AssemblyInfo.cs
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Utilities\obj\Debug\netcoreapp3.1\eShopSolulation.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Utilities\obj\Debug\netcoreapp3.1\eShopSolulation.Utilities.dll
+C:\Users\Admin\source\repos\MVCSolution\eShopSolulation.Utilities\obj\Debug\netcoreapp3.1\eShopSolulation.Utilities.pdb
