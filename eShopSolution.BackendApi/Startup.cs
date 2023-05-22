@@ -1,6 +1,9 @@
 using eShopSolulation.Application.Catalog.Products;
 using eShopSolulation.Application.Catalog.Products.Dtos;
+using eShopSolution.Application.Catalog.Categories;
 using eShopSolution.Application.Common;
+using eShopSolution.Application.System.Languages;
+using eShopSolution.Application.System.Roles;
 using eShopSolution.Application.System.Users;
 using eShopSolution.Data.EF;
 using eShopSolution.Data.Entities;
@@ -14,6 +17,7 @@ using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Server.IIS;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -24,6 +28,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -53,20 +58,21 @@ namespace eShopSolution.BackendApi
             services.AddDataProtection() .PersistKeysToFileSystem(new DirectoryInfo(Path.GetTempPath()));
             services.AddTransient<IstorageServicecs,FileStorageServicecs>();
             services.AddTransient<IProductService, ProductService>();
-            services.AddTransient<IUserService, UserService>();
-           
-
             services.AddTransient<UserManager<AppUser>, UserManager<AppUser>>();
             services.AddTransient<SignInManager<AppUser>, SignInManager<AppUser>>();
             services.AddTransient<RoleManager<AppRole>, RoleManager<AppRole>>();
             services.AddTransient<IValidator<LoginRequest>, LoginRequestValidator>();
             services.AddTransient<IValidator<RegisterRequest>, RegisterRequestValidator>();
-
-
+            services.AddTransient<IRoleService, RoleService>();
+            services.AddTransient<IUserService, UserService>();
+            services.AddTransient<ILanguageService, LanguageService>();
+            services.AddTransient<ICategoryService,CategoryService>();
 
             services.AddControllers().AddFluentValidation()
                 .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<LoginRequestValidator>());
 
+          
+       
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Swagger eShop Solution", Version = "v1" });
@@ -102,31 +108,30 @@ namespace eShopSolution.BackendApi
             });
             string issuer = Configuration.GetValue<string>("Tokens:Issuer");
             string signingKey = Configuration.GetValue<string>("Tokens:Key");
-            byte[] sigingKeyBytes = System.Text.Encoding.UTF8.GetBytes(signingKey);
+            byte[] signingKeyBytes = System.Text.Encoding.UTF8.GetBytes(signingKey);
+
             services.AddAuthentication(opt =>
             {
                 opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
                 opt.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
             })
-            .AddJwtBearer(options =>
-            {
-                options.RequireHttpsMetadata = false;
-                options.SaveToken = true;
-                options.TokenValidationParameters = new TokenValidationParameters()
-                {
-                    ValidateIssuer = true,
-                    ValidIssuer = issuer,
-                    ValidateAudience = true,
-                    ValidAudience = issuer,
-                    ValidateLifetime = true,
-                    ValidateIssuerSigningKey = true,
-                    ClockSkew = System.TimeSpan.Zero,
-                    IssuerSigningKey = new SymmetricSecurityKey(sigingKeyBytes)
-
-                };
-
-
-            });
+              .AddJwtBearer(options =>
+              {
+                  options.RequireHttpsMetadata = false;
+                  options.SaveToken = true;
+                  options.TokenValidationParameters = new TokenValidationParameters()
+                  {
+                      ValidateIssuer = true,
+                      ValidIssuer = issuer,
+                      ValidateAudience = true,
+                      ValidAudience = issuer,
+                      ValidateLifetime = true,
+                      ValidateIssuerSigningKey = true,
+                      ClockSkew = System.TimeSpan.Zero,
+                      IssuerSigningKey = new SymmetricSecurityKey(signingKeyBytes)
+                  };
+              });
+         
 
 
         }
@@ -157,7 +162,7 @@ namespace eShopSolution.BackendApi
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "swagger eShopSolution v1");
             });
-
+            
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

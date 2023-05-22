@@ -47,7 +47,10 @@ namespace eShopSolution.AdminApp
 
 
          services.AddSingleton<IUserApiClient, UserApiClient>();
-
+         services.AddSingleton<IRoleApiClient, RoleApiClient>();
+         services.AddSingleton<ILanguageApiClient, LanguageApiClient>();
+         services.AddSingleton<IProductApiClient, ProductApiClient>();
+         services.AddSingleton<ICategoryApiClient, CategoryApiClient>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

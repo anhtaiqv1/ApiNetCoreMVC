@@ -3,6 +3,7 @@ using eShopSolution.Data.Entities;
 using eShopSolution.ViewModel.Catalog.ProductImages;
 using eShopSolution.ViewModel.Catalog.Products;
 using eShopSolution.ViewModel.Common;
+using eShopSolution.ViewModel.System.Users;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -21,7 +22,7 @@ namespace eShopSolulation.Application.Catalog.Products
 
         Task<int> Delete(int producId);
 
-        Task<ProductViewModel>GetById (int producId ,string languageId);
+        Task<ProductVm>GetById (int producId ,string languageId);
 
         Task<bool> UpdatePrice(int ProductId, int newPrice);
 
@@ -29,7 +30,7 @@ namespace eShopSolulation.Application.Catalog.Products
 
         Task AddViewCount(int productId);
 
-        Task <PagedResult<ProductViewModel>> GetAllPaging(GetManageProductPagingRequest request);
+        Task <PagedResult<ProductVm>> GetAllPaging(GetManageProductPagingRequest request);
 
 
        Task<int> AddImage(int productId,ProductImageCreateRequest request);
@@ -42,9 +43,10 @@ namespace eShopSolulation.Application.Catalog.Products
         Task<List<ProductImageViewModel>> GetListImage(int productId);
 
 
-        Task<PagedResult<ProductViewModel>> GetAllByCategoryId(string languageId, GetPublicProductPagingRequest request);
+        Task<PagedResult<ProductVm>> GetAllByCategoryId(string languageId, GetPublicProductPagingRequest request);
 
-        Task<List<ProductViewModel>> GetAll(GetManageProductPagingRequest request);
+        Task<List<ProductVm>> GetAll(GetManageProductPagingRequest request);
+        Task<ApiResult<bool>> CategoryAssign(int id, CategoryAssignRequest request);
     }
 }
 
